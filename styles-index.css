@@ -59,10 +59,9 @@
         list-style: none;
         justify-content: space-between;
     }
-    .contact-bold{
-        font-weight: bolder;
-    }
+    .menu-item-down{}
     .information{}
+    .info-icon{}
     .logo-footer{}
 
 }
@@ -71,7 +70,7 @@
   and (min-device-width: 320px) 
   and (max-device-width: 791px) {
 
-    .main-header {
+    .main-f {
         font-family: 'Lato';
         display:inline-flex;
         margin: 0;
