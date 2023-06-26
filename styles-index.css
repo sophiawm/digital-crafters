@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 @media  only screen 
-  and (min-device-width: 791px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 3000px) {
     
     .main-header{
@@ -43,7 +43,10 @@ body {
     .contact-bold{
         font-weight: bolder;
     }
-
+    .top-nav{
+        display: none;
+    }
+    
     .main-footer{
         font-family: 'Lato';
         margin: 0;
@@ -83,7 +86,7 @@ body {
         background-color: white;
         border-radius: 5%;
         padding: 2%;
-        width: 13vw;
+        width: 10%;
         justify-content: center;
     }
     .topnav{
@@ -92,8 +95,8 @@ body {
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 791px) {
+  and (min-device-width: 300px) 
+  and (max-device-width: 767px) {
 
     .main-header{
     display: none;
