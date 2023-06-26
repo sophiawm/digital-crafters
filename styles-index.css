@@ -1,9 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 @media  only screen 
   and (min-device-width: 791px) 
   and (max-device-width: 3000px) {
+    
     .main-header{
         display:inline-flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         vertical-align: middle;
         font-family: 'Lato';
@@ -12,28 +17,28 @@
         width: 100vw; 
         height: 20vh;
     }
+
+    .logo-header {
+        display:inline-flex;
+        width: 20vw;
+        justify-content: center;
+    }
+
     .menu-header {
         display:inline-flex;
         list-style: none;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: flex-end;
+        gap:8vw;
         vertical-align: middle;
         width: 50vw; 
-        letter-spacing: 0.03em;
-        font-size: 1rem;
-        font-weight: bold;
-
-    }
-    .logo-header {
-        display:inline-flex;
-        width: 15vw;
-        height: 4rem;
-        justify-content: space-around;
     }
     .menu-item {
-        color: white;
-        font-style: none;
-        text-decoration: none;  
+        font-size: 1.2rem;
+        font-style: normal;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+        color: black;
+        font-weight: normal;
     }
     .contact-bold{
         font-weight: bolder;
@@ -44,25 +49,43 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 20vh;
+        height: 30vh;
         display:inline-flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color: #7C9070;
         color: #FFFFFF;
         letter-spacing: 0.03em;
         font-size: 1rem;
-        font-weight: bold;
         vertical-align: middle;
     }
     .menu-down {
         list-style: none;
-        justify-content: space-between;
+        line-height: 2.5rem;
+        padding: 0;
     }
-    .menu-item-down{}
-    .information{}
-    .info-icon{}
-    .logo-footer{}
+    .menu-item-down{
+        font-weight: normal;
+        font-size: 1.2rem;
+        font-style: none;
+        text-decoration: underline;
+        text-decoration-color: #7C9070;
+        color: white;
+    }
+    .information{
+        vertical-align: center;
+    }
+    .info-icon{
+        width: 2.5vw;
+        vertical-align: center;
+    }
+    .logo-footer{
+        background-color: white;
+        border-radius: 5%;
+        padding: 2%;
+        width: 13vw;
+        justify-content: center;
+    }
 
 }
 
