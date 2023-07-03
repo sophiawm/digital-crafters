@@ -591,6 +591,7 @@ and (max-device-width: 767px) {
         flex-wrap: wrap;
         margin: 5rem;
         margin-bottom: 12vh;
+        justify-content: center;
     
     }
     /*¿Queremos la imagen centrada*/
@@ -610,7 +611,8 @@ and (max-device-width: 767px) {
     .presentation-image{
         grid-area: image;
         width: 35vw;
-        padding-left: 2 rem;
+        align-self: center;
+        padding-left: 2rem;
         flex-shrink: 4;
         border-radius: var(--dskt-border-radius-img-top);
     }

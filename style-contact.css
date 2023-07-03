@@ -379,7 +379,6 @@ body {
     /*MI CODIGO*/
     body {
         width: 100vw;
-        height: 100vh;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto 80% auto;
@@ -391,6 +390,8 @@ body {
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        padding-top: -1rem;
+        padding-bottom: 3rem;
     }
 
     .formulario {
