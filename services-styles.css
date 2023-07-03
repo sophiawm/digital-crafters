@@ -75,8 +75,7 @@
 
 .menu-button::after {
     content: '';
-    margin-top: 17px; /* Ajustar el margen superior */
-}
+    margin-top: 17px;
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 5px;
@@ -598,7 +597,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 2rem;
-  
+
 }
 .main-footer{
   font-family: 'Lato';
@@ -646,7 +645,7 @@
 .topnav{
   display: none;
 }
+
+}
 }
 
-
- 
