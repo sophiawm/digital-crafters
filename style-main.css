@@ -45,8 +45,8 @@ body{
     "footer";
 }
 @media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 767px) {
+and (min-device-width: 300px) 
+and (max-device-width: 767px) {
     .main-header{
         display:inline-flex;
         justify-content: space-around;
@@ -136,8 +136,8 @@ body{
 }
 
 @media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 767px) {
+and (min-device-width: 300px) 
+and (max-device-width: 767px) {
 
     .main-header{
     display: none;
@@ -387,8 +387,6 @@ body{
     display: flex;
     margin: 0 auto;
     align-self:center;
-  
-  
 }
 /*Empiezalo verde*/
 .main-green-container{
@@ -404,7 +402,6 @@ body{
     padding: 3rem 4rem;
     padding-top: 1.5rem;
     color: var(--color-white)
-   
 }
 .main-green-title{
     align-self: center;
