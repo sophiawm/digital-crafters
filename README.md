@@ -23,8 +23,11 @@ Si deseas contribuir a este proyecto, ¡eres bienvenido! Puedes hacerlo siguiend
 5. Abre una pull request en este repositorio.
 
 ## Autores
-- [Nombre del autor 1](https://github.com/usuario1)
-- [Nombre del autor 2](https://github.com/usuario2)
+- [Ruben Reyes](https://github.com/rubenreyesv4)
+- [Victor Nash](https://github.com/Victor-Nash)
+- [Wanda Abreu](https://github.com/wandaabr)
+- [Bryan Mariano](https://github.com/BRYAN-MARIANO)
+- [Sophia Wong](https://github.com/sophiawm)
 
 ## Licencia
 Este proyecto está bajo la licencia Creative Commons.
