@@ -7,8 +7,6 @@
     --dskt-border-radius-img-top: 2rem;
     --dskt-padding-butons: 2em;
     --dskt-font-size-butons: 1rem;
-    --header-height: 10vh;
-    --footer-height: 27vh;
     --font-size-h2-top: 1.8rem;
     --font-size-text-top: 1.25rem;
     --font-size-h3-green: 1.25rem;
@@ -297,16 +295,6 @@ and (max-device-width: 767px) {
         display:none;
     }
 }
-/*.header{
-    height: var(--header-height);
-    background-color: var(--color-white);
-    grid-area: header;
-    margin-bottom: 0.5rem;
-    display: flex;
-}
-.header-logo-img{
-    width:30%;
-}*/
 .main-container{    
     background-color: var(--color-white);
     grid-area: main;
@@ -319,24 +307,15 @@ and (max-device-width: 767px) {
 .presentation{
     grid-area: presentation;
     padding-top: 0.75rem;
-    /*height: 75vh;*/
-    /*display: grid;
-    grid-template-areas:
-    "image"
-    "text"*/
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 12vh;
 
 }
-/*¿Queremos la imagen centrada*/
 .presentation-text-container{
     grid-area: text;
     padding: 0 1rem;
-    /*margin-top: 1rem;
-    margin-left: 2rem;*/
-    /*margin-bottom: 5rem;*/
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -347,23 +326,21 @@ and (max-device-width: 767px) {
 }
 .presentation-image{
     grid-area: image;
-    width: 100vw;
     width: 65vw;
-    padding-left: 0.2rem;
+    padding-left: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
     flex-shrink: 4;
     border-radius: var(--border-radius-img-top);
 }
 .presentation-title{
     font-size: var(--font-size-h2-top);
-    /*margin-left: 2rem 0;
-    word-spacing: 0.01em;*/
     margin: 0;
     padding-left: 1.2rem;
     
 }
 .presentation-text{
     font-size: var(--font-size-text-top);
-    /*left: 2%;*/
     font-weight: 545;
     padding-left: 1.2rem;
 }
@@ -392,7 +369,6 @@ and (max-device-width: 767px) {
 .main-green-container{
     grid-area: green-section;
     background-color:  #7C9070;
-    /*height: 37vh;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -407,9 +383,6 @@ and (max-device-width: 767px) {
     align-self: center;
     font-size: var(--font-size-h3-green);
     text-indent: 0.2rem;
-    /*margin-top: 1vh;*/
-    
-
 }
 .main-green-txt{
     font-weight: light;
@@ -475,11 +448,9 @@ and (max-device-width: 767px) {
     grid-area: collaboration;
 }
 .vision-item{
-    /*width: 50vw;*/
     display: flex;
     flex-direction:column;
     justify-content: center;
-
 }
 
 .vision-item-img{
@@ -489,7 +460,6 @@ and (max-device-width: 767px) {
     margin:0 auto;
     padding:0.7rem 2rem;
     text-align: center;
-
 }
 .vision-item-title{
    font-size: var(--font--size-vision-title)
@@ -504,24 +474,9 @@ and (max-device-width: 767px) {
 .vision-image-img{
     width: 0;
 }
-
-
-/*.footer{
-    background-color: var(--color-green);
-}*/
 @media  only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 3000px) {
-    /*.header{
-        height: var(--header-height);
-        background-color: var(--color-white);
-        grid-area: header;
-        margin-bottom: 0.5rem;
-        display: flex;
-    }
-    .header-logo-img{
-        width:30%;
-    }*/
     .main-header{
         display:inline-flex;
         justify-content: space-around;
@@ -533,7 +488,6 @@ and (max-device-width: 767px) {
         width: 100vw; 
         height: 20vh;
     }
-
     .logo-header {
         display:inline-flex;
         width: 20vw;
@@ -568,7 +522,7 @@ and (max-device-width: 767px) {
         display: none;
     }
 
-/*Footer y header acaban empiez main*/
+/*Footer y header acaban empieza main*/
     .main-container{
         background-color: var(--color-white);
         grid-area: main;
@@ -581,11 +535,6 @@ and (max-device-width: 767px) {
     .presentation{
         grid-area: presentation;
         padding-top: 0.75rem;
-        /*height: 75vh;*/
-        /*display: grid;
-        grid-template-areas:
-        "image"
-        "text"*/
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -594,13 +543,9 @@ and (max-device-width: 767px) {
         justify-content: center;
     
     }
-    /*¿Queremos la imagen centrada*/
     .presentation-text-container{
         grid-area: text;
         padding: 0 1rem;
-        /*margin-top: 1rem;
-        margin-left: 2rem;*/
-        /*margin-bottom: 5rem;*/
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -618,15 +563,12 @@ and (max-device-width: 767px) {
     }
     .presentation-title{
         font-size: var(--dskt-font-size-h2-top);
-        /*margin-left: 2rem 0;
-        word-spacing: 0.01em;*/
         margin: 0;
         padding-left: 1.2rem;
         
     }
     .presentation-text{
         font-size: var(--dskt-font-size-text-top);
-        /*left: 2%;*/
         font-weight: 545;
         padding-left: 1.2rem;
     }
@@ -653,7 +595,7 @@ and (max-device-width: 767px) {
       
       
     }
-    /*Empiezalo verde*/
+    /*Empieza lo verde*/
     .main-green-container{
         grid-area: green-section;
         background-color:  #7C9070;
@@ -672,9 +614,6 @@ and (max-device-width: 767px) {
         align-self: center;
         font-size: var(--dskt-font-size-h3-green);
         text-indent: 0.2rem;
-        /*margin-top: 1vh;*/
-        
-    
     }
     .main-green-txt{
         font-weight: light;
@@ -754,11 +693,9 @@ and (max-device-width: 767px) {
         padding: 0.5rem;
     }
     .vision-item{
-        /*width: 50vw;*/
         display: flex;
         flex-direction:column;
         justify-content: center;
-        
     }
     
     .vision-item-img{
@@ -837,11 +774,5 @@ and (max-device-width: 767px) {
         width: 10%;
         justify-content: center;
     }
-    /*.footer{
-        height: var(--footer-height);
-        background-color: var(--color-green);
-        
-    }*/
-    
     
 }
