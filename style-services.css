@@ -68,6 +68,7 @@
 .menu-button::after {
     content: '';
     margin-top: 17px;
+}
 #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 5px;
     transform: rotate(405deg);
@@ -617,7 +618,7 @@
   display: none;
 }
 }
-}
+
 
 
 
