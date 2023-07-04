@@ -454,7 +454,8 @@ and (max-device-width: 767px) {
 }
 
 .vision-item-img{
-    width: 100%;
+    width: 87.5%;
+    margin-left: 0.75rem;
 }
 .vision-txt{
     margin:0 auto;
@@ -473,6 +474,7 @@ and (max-device-width: 767px) {
 }
 .vision-image-img{
     width: 0;
+   
 }
 @media  only screen 
   and (min-device-width: 768px) 
